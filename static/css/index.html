@@ -1,0 +1,490 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Brilliants Tutor's Academy</title>
+
+    <!-- Favicon -->
+    <link rel="icon" href="./static/img/favicon.png" type="image/png" />
+    <!-- Swiper CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+
+    <!-- Bootstrap Icons -->
+    <link rel="stylesheet" href="./static/css/bootstrap.min.css" />
+    <!-- Font Awesome  -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+    />
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="./static/css/style.css" />
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav
+      class="navbar navbar-expand-lg navbar-light bg-light fixed-top shadow-sm"
+    >
+      <div class="container">
+        <a class="navbar-brand" href="#">
+          <img src="./static/img/logo.png" alt="Logo" width="200" height="50" />
+        </a>
+
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNavDropdown"
+          aria-controls="navbarNavDropdown"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <!-- Menu -->
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav mx-lg-auto text-center">
+            <li class="nav-item mx-2">
+              <a class="nav-link active" href="#">About</a>
+            </li>
+            <li class="nav-item mx-2">
+              <a class="nav-link" href="#">Online Tuition</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                data-bs-toggle="dropdown"
+                >Services</a
+              >
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Boards Exam</a></li>
+                <li><a class="dropdown-item" href="#">Entrance Exam</a></li>
+              </ul>
+            </li>
+            <li class="nav-item mx-2">
+              <a class="nav-link" href="#">Admission</a>
+            </li>
+            <li class="nav-item mx-2">
+              <a class="nav-link" href="#">Career</a>
+            </li>
+            <li class="nav-item mx-2">
+              <a class="nav-link" href="#">Contact us</a>
+            </li>
+          </ul>
+
+          <!-- Call Button -->
+          <div class="d-flex justify-content-end">
+            <a
+              href="tel:+919819872773"
+              class="btn custom-btn d-flex align-items-center gap-2"
+            >
+              <i class="bi bi-telephone-fill"></i> +91 9819872773
+            </a>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Banner Section -->
+    <div class="banner-section section">
+      <div class="container">
+        <div class="row">
+          <!-- Left  Content -->
+          <div class="col-md-6">
+            <h1 class="large_heading">Home Tuitions</h1>
+            <h4 class="sub_heading mb-4">For Students Across</h4>
+            <p class="cust1-p">
+              We offer expert tutors for students across all grades and
+              subjects. Whether it's school exam preparation, conceptual
+              clarity, or homework help — our home tuition service ensures
+              focused, one-on-one learning tailored to your child’s needs.
+            </p>
+            <div
+              class="contact-bar d-flex justify-content-start gap-5 flex-wrap mt-5"
+            >
+              <!-- Call Info -->
+              <div class="contact-item text-center text-md-start">
+                <p>Give us a call on</p>
+                <h4><i class="bi bi-telephone-fill me-2"></i> 9819872773</h4>
+              </div>
+
+              <!-- WhatsApp Info -->
+              <div class="contact-item text-center text-md-start">
+                <p>Enquire on Whatsapp</p>
+                <h4><i class="bi bi-whatsapp me-2 fs-4"></i> 9819872773</h4>
+              </div>
+            </div>
+
+            <div class="stats mt-3">
+              <div class="swiper statsSwiper">
+                <div class="swiper-wrapper">
+                  <div class="swiper-slide">
+                    <div class="card-box">
+                      <h4>5000+</h4>
+                      <p class="mb-0">Number of Teachers</p>
+                    </div>
+                  </div>
+                  <div class="swiper-slide">
+                    <div class="card-box">
+                      <h4>24+</h4>
+                      <p class="mb-0">Years of Experience</p>
+                    </div>
+                  </div>
+                  <div class="swiper-slide">
+                    <div class="card-box">
+                      <h4>12000+</h4>
+                      <p class="mb-0">Number of Students</p>
+                    </div>
+                  </div>
+                  
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Right content Form -->
+          <div class="col-md-6 p-3 form-side">
+            <div class="form-container">
+              <div class="form-header">
+                <h2 class="sub_heading2">Get Your Private Tutor's Now</h2>
+              </div>
+              <form class="tutor-form">
+                <div class="form-group">
+                  <input type="text" placeholder="Name*" required />
+                  <input type="email" placeholder="Email*" required />
+                </div>
+                <div class="form-group">
+                  <input type="tel" placeholder="Phone*" required />
+                  <input type="text" placeholder="Class*" required />
+                </div>
+                <div class="form-group single">
+                  <select required>
+                    <option value="">Select City</option>
+                    <option>Delhi</option>
+                    <option>Mumbai</option>
+                    <option>Kolkata</option>
+                    <option>Chennai</option>
+                  </select>
+                </div>
+                <div class="form-group single">
+                  <textarea rows="4" placeholder="Query"></textarea>
+                </div>
+                <div class="form-group single">
+                  <div class="captcha-box">I'm not a robot</div>
+                </div>
+                <div class="form-group single text-center">
+                  <button type="submit" class="custom-btn">Submit</button>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- program section -->
+    <section class="programs-section bg-light section">
+      <div class="container">
+        <div class="row  g-5">
+          <div class="col-12 col-md-6 mb-0">
+            <h3 class="large_heading">
+              Find Trusted Home Tutors in Your City<br /><span class="small_heading"
+                >Fast Track Your Child’s Success!</span
+              >
+            </h3>
+          </div>
+
+          <div class="col-12 col-md-6 ">
+            <div class="row gy-3">
+              <div class="col-12 col-sm-6 col-md-4">
+                <span class="location-badge badge">
+                  <i class="bi bi-geo-alt-fill me-1"></i> Mumbai
+                </span>
+              </div>
+              <div class="col-12 col-sm-6 col-md-4">
+                <span class="location-badge badge">
+                  <i class="bi bi-geo-alt-fill me-1"></i> Navi Mumbai
+                </span>
+              </div>
+              <div class="col-12 col-sm-6 col-md-4">
+                <span class="location-badge badge">
+                  <i class="bi bi-geo-alt-fill me-1"></i> Thane
+                </span>
+              </div>
+              <div class="col-12 col-sm-6 col-md-4">
+                <span class="location-badge badge">
+                  <i class="bi bi-geo-alt-fill me-1"></i> Pune
+                </span>
+              </div>
+              <div class="col-12 col-sm-6 col-md-4">
+                <span class="location-badge badge">
+                  <i class="bi bi-geo-alt-fill me-1"></i> Bengaluru
+                </span>
+              </div>
+              <div class="col-12 col-sm-6 col-md-4">
+                <span class="location-badge badge">
+                  <i class="bi bi-geo-alt-fill me-1"></i> Hyderabad
+                </span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about-us section">
+      <div class="container">
+        <div class="row align-items-center g-5">
+          <div class="col-md-6 text-center">
+            <img
+              src="./static/img/about1.png"
+              alt="Illustration"
+              class="img-fluid"
+            />
+          </div>
+
+          <div class="col-md-6">
+            <h2 class="large_heading">About Us</h2>
+            <div class="heading-underline mb-4"></div>
+            <h3 class="sub_heading">
+              Is your child struggling with the curriculum?
+            </h3>
+            <p class="cust-p">
+              Perhaps you're trying to improve their chances in a national
+              competition or want to ensure they get the grades they need to
+              pursue their chosen career. If you don't want your child to fall
+              behind, private tuition could be the answer. A home tutor gives
+              children the opportunity to tackle their weaker subject areas and
+              can provide a real boost to confidence as well as exam success.
+            </p>
+            <p>Feel free to contact us</p>
+            <a href="#contact" class="btn custom-btn">Contact Us</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <div class="Feature-section section bg-light">
+      <div class="container">
+        <h2 class="text-center large_heading">Admission Process</h2>
+        <div class="heading-underline mx-auto"></div>
+        <p class="text-center cust-p mt-3 mb-5">
+          Brilliant Tutors Academy, we work to ensure that the admission process is smooth
+          and hassle-free. Here are simple steps that you can follow to secure
+          your place:
+        </p>
+        <div class="row text-center">
+          <!-- Step 1 -->
+          <div class="col-md-3">
+            <div class="step-icon bg-danger text-white">
+              <span>1</span>
+            </div>
+            <h4 class="small_heading mt-3">Tutors By Grade</h4>
+            <p class="cust-p mt-4">
+              Start by filling in an application form online via our official
+              channel.
+            </p>
+          </div>
+
+          <!-- Step 2 -->
+          <div class="col-md-3">
+            <div class="step-icon bg-info text-white">
+              <span>2</span>
+            </div>
+            <h4 class="small_heading mt-3"> Tutors by Stream</h4>
+            <p class="cust-p mt-4">
+              Once your application is submitted, one of our expert counselors
+              will contact you to guide you through the process and clarify any
+              doubts.
+            </p>
+          </div>
+
+          <!-- Step 3 -->
+          <div class="col-md-3">
+            <div class="step-icon bg-warning text-white">
+              <span>3</span>
+            </div>
+            <h4 class="small_heading mt-3">Tutors for Competitive exams</h4>
+            <p class="cust-p mt-4">
+              Keep in mind your interests and future career when you select your
+              desired course and university from our wide range of
+              availabilities.
+            </p>
+          </div>
+
+          <!-- Step 4 -->
+          <div class="col-md-3">
+            <div class="step-icon bg-dark text-white">
+              <span>4</span>
+            </div>
+            <h4 class="small_heading mt-3">Tutors by Curriculum</h4>
+            <p class="cust-p mt-4">
+              Finally, pay the academic fee online through the available payment
+              methods.
+            </p>
+          </div>
+
+          <!-- WhatsApp Button -->
+          <!-- <div class="whatsapp-btn text-center">
+          <a href="https://wa.me/9819872773" target="_blank" class="btn btn-success">WhatsApp Click to Chat</a>
+        </div> -->
+        </div>
+      </div>
+    </div>
+
+    <!-- whychoose us -->
+    <section class="whychooseus-section section">
+      <div class="container">
+        <div class="row align-items-center g-5">
+          <!-- Left Image -->
+          <div class="col-md-6 mb-4 mb-md-0">
+            <img
+              src="./static/img/why.png"
+              alt="Online Learning"
+              class="img-fluid rounded shadow big-img"
+            />
+          </div>
+
+          <!-- Right Content -->
+          <div class="col-md-6">
+            <h2 class="large_heading">Why Choose Us?</h2>
+            <div class="heading-underline"></div>
+          
+            <div class="mt-5">
+              <div class="feature-item d-flex gap-3 mb-4">
+                <i class="fas fa-bolt feature-icon  fs-4"></i>
+                <div>
+                  <h5 class="mb-1">Accelerated Learning Programs</h5>
+                  <p class="mb-0">Save your time and accomplish qualification quicker with fast track courses.</p>
+                </div>
+              </div>
+          
+              <div class="feature-item d-flex gap-3 mb-4">
+                <i class="fas fa-globe feature-icon  fs-4"></i>
+                <div>
+                  <h5 class="mb-1">Globally Recognized Degrees</h5>
+                  <p class="mb-0">UGC-DEB-MHRD-approved universities provide a worldwide recognized degree.</p>
+                </div>
+              </div>
+          
+              <div class="feature-item d-flex gap-3 mb-4">
+                <i class="fas fa-laptop feature-icon  fs-4"></i>
+                <div>
+                  <h5 class="mb-1">Flexible and Convenient</h5>
+                  <p class="mb-0">You are free to learn on your schedule and take exams online.</p>
+                </div>
+              </div>
+          
+              <div class="feature-item d-flex gap-3 mb-4">
+                <i class="fas fa-user-graduate feature-icon  fs-4"></i>
+                <div>
+                  <h5 class="mb-1 ">Expert Guidance</h5>
+                  <p class="mb-0">Individual counseling and assistance by our skilled staff will help you.</p>
+                </div>
+              </div>
+          
+              <div class="feature-item d-flex gap-3 mb-4">
+                <i class="fas fa-chart-line feature-icon  fs-4"></i>
+                <div>
+                  <h5 class="mb-1">Enhance Your Career Prospects</h5>
+                  <p class="mb-0">Improve your skills and abilities to improve your future work frontiers.</p>
+                </div>
+              </div>
+          
+              <div class="feature-item d-flex gap-3 mb-4">
+                <i class="fas fa-book-open feature-icon  fs-4"></i>
+                <div>
+                  <h5 class="mb-1">Wide Range of Courses</h5>
+                  <p class="mb-0">There are many programs for students and professionals alike that cover various areas.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+        </div>
+      </div>
+    </section>
+
+    <!-- cta section -->
+    <section class="cta-section section">
+      <div class="cta-overlay">
+        <div class="cta-content">
+          <h2 class="large_heading">
+            Enroll Today and Fast-Track Your Career!
+          </h2>
+          <p>
+            Take the first step towards achieving your dreams.<br />
+            Enroll now and start your journey with expert guidance.
+          </p>
+          <div class="cta-buttons">
+            <button class="btn custom-btn">📞 REQUEST CALL BACK</button>
+            <button class="btn btn-outline">📱 +91 8080 222 999</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ABOUT SECTION2 -->
+    <section class="about-overlay-section section d-flex align-items-center">
+      <div class="container">
+        <div class="row">
+          <div class="text-white">
+            <h2 class="large_heading">About Us</h2>
+            <div class="heading-underline mb-4"></div>
+            <h3 class="sub-heading">
+              Is your child struggling with the curriculum?
+            </h3>
+            <p class="cust1-p">
+              Perhaps you're trying to improve their chances in a national
+              competition or want to ensure they get the grades they need to
+              pursue their chosen career. If you don't want your child to fall
+              behind, private tuition could be the answer. A home tutor gives
+              children the opportunity to tackle their weaker subject areas and
+              can provide a real boost to confidence as well as exam success.
+            </p>
+            <p>Feel free to contact us</p>
+            <a href="#contact" class="btn custom-btn">Contact Us</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CTA 2 -->
+    <section class="cta-section2 section">
+      <div class="container d-flex justify-content-between align-items-center flex-wrap">
+       
+        <div class="cta-text">
+          <h2>Start Your Journey to Success with <br>Brilliant Tutors Academy</h2>
+          <p class="cust-p">Unlock Your Dream Qualification with Just One Click – <br>Take the First Step Toward Your Future Today!</p>
+        </div>
+    
+       
+        <div class="cta-right text-center">
+          <img src="./static/img/bg1.png" alt="Graduates" class="cta-image" />
+          <br />
+          <a href="#" class="cta-btn">Join Now</a>
+        </div>
+      </div>
+    </section>
+    
+
+    <!-- Scripts -->
+
+    <script src="./static/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+
+    <script src="./static/js/script.js"></script>
+  </body>
+</html>
