@@ -39,7 +39,8 @@ color: var(--light);
 padding: 15px 40px;
 border-radius: 5px;
 font-weight: 600;
-border: 2px solid white;
+border: none;
+
 
 }
 
@@ -439,15 +440,22 @@ border: 2px solid white;
 }
 
 .icon-wrapper1 {
-  width: 140px;
+  width: 60px;
   height: 60px;
-  margin: 0 auto;
+  background-color: #212529; 
   border-radius: 50%;
   display: flex;
-  justify-content: center;
   align-items: center;
-  background-color: var(--dark);
+  justify-content: center;
+  flex-shrink: 0;
 }
+
+.icon-wrapper1 i {
+  font-size: 24px;  
+  line-height: 1;
+ 
+}
+
 
 .bg-primary-light { background-color: #80bfff; } 
 .bg-purple-light { background-color: #d3a1d3; } 
